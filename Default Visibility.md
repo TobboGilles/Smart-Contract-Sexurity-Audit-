@@ -1,4 +1,6 @@
-TOPIC 2: Default Visibility 
+                                          TOPIC 2: Default Visibility 
+
+
 Functions in Solidity have visibility specifiers which dictate how functions are allowed to be called. The visibility determines whether a function can be called externally by users, by other derived smart contracts, only internally or only externally. There are four visibility specifiers, which are described in detail in the Topic 1 “FUNCTION VISIBILITY” that I wrote earlier before. Note that All Functions are to set public by default allowing users to call them externally. Incorrect use of visibility specifiers can lead to some devastating vulnerabilities in smart contracts as will be discussed in this topic.
 
 The Vulnerability
